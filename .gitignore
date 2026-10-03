@@ -1,0 +1,12 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# LangGraph dev server state (in-memory runtime persistence flush)
+.langgraph_api/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
